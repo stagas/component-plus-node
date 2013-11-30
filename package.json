@@ -1,0 +1,13 @@
+{
+  "name": "component-plus-node",
+  "repo": "stagas/component-plus-node",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "makes components work in both node and the browser",
+  "keywords": ["component", "node"],
+  "author": "stagas",
+  "main": "index.js",
+  "devDependencies": {
+    "each-component": "*"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>component-plus-node</title>
+  </head>
+  <body>
+    <script src="../build/build.js"></script>
+    <script>
+
+    require('component-plus-node');
+
+    function assert(expr){ if (!expr) throw new Error('failed') }
+
+    var each = require('each');
+
+    var result = '';
+
+    each(['Hello,', ' world!'], function(el){
+      result += el;
+    });
+
+    assert('Hello, world!' == result);
+
+    document.write('OK');
+
+    </script>
+  </body>
+</html>
